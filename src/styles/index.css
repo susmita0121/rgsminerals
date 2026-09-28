@@ -1,0 +1,34 @@
+@import './fonts.css';
+@import './tailwind.css';
+@import './theme.css';
+@import 'lenis/dist/lenis.css';
+
+/* Smooth scroll behavior */
+html.lenis, html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+/* Selection color */
+::selection {
+  background: rgba(13, 148, 136, 0.2);
+  color: #1a1a2e;
+}
+
+/* Smooth scroll behavior */
+html.lenis, html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+/* Selection color */
+::selection {
+  background: rgba(13, 148, 136, 0.2);
+  color: #1a1a2e;
+}
